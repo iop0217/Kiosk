@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Payment {
     Scanner scanner = new Scanner(System.in);
-    private Cart cart = new Cart();
 
     // 매장 취식, 포장 선택
     public void packSto() {

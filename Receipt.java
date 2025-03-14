@@ -11,10 +11,6 @@ public class Receipt {
         app.append(text).append("\n");
     }
 
-    public String getText() {
-        return app.toString();
-    }
-
     public void getOrder() {
         System.out.println("\n[ 주문 번호 ]");
         System.out.printf("%03d\n", 1 + random.nextInt(999));

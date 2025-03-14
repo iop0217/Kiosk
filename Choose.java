@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Choose {
     Scanner scanner = new Scanner(System.in);
 
-    private MenuItem menuItem = new MenuItem("", "", "", "");
-
     private String select;
     private String hotice;
     private int shot;
